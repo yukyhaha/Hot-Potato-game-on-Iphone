@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>HotPotViewController.nib</key>
+		<data>
+		bmc1Jf6FIwo9IgscgrXmeob+a0Q=
+		</data>
+		<key>MainWindow.nib</key>
+		<data>
+		t/M5tx7eV5XRtL46rpjl2xiRvag=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Potato.jpg</key>
+		<data>
+		oN0jezLfPG27tyi5ewNfKO+Zl8E=
+		</data>
+		<key>background.jpg</key>
+		<data>
+		6/Uk8IDxeV5+qeAekZTBoPgDIe8=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		iLABkUxbcycKxsyfA5mobgJIrHs=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

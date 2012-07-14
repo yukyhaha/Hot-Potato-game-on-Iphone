@@ -1,0 +1,920 @@
+THotPot
+v7
+r0
+t314233052.226205
+cCheck dependencies
+cCpResource build/Debug-iphoneos/HotPot.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app/Info.plist HotPot-Info.plist
+cCompileXIB /Users/swetha/Desktop/HotPot/MainWindow.xib
+cCompileXIB /Users/swetha/Desktop/HotPot/HotPotViewController.xib
+cCpResource build/Debug-iphoneos/HotPot.app/Potato.jpg Potato.jpg
+cCpResource build/Debug-iphoneos/HotPot.app/background.jpg background.jpg
+cProcessPCH /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-aqqmtfileworvcgkegevjoxildiw/HotPot_Prefix.pch.gch HotPot_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-hbuhmvqodqczzkgqyygbrgbdwyfg/HotPot_Prefix.pch.gch HotPot_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/main.o /Users/swetha/Desktop/HotPot/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPotAppDelegate.o /Users/swetha/Desktop/HotPot/Classes/HotPotAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPotViewController.o /Users/swetha/Desktop/HotPot/Classes/HotPotViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPot normal armv6
+cCompileC build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/main.o /Users/swetha/Desktop/HotPot/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPotAppDelegate.o /Users/swetha/Desktop/HotPot/Classes/HotPotAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPotViewController.o /Users/swetha/Desktop/HotPot/Classes/HotPotViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPot normal armv7
+cCreateUniversalBinary /Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app/HotPot normal "armv6 armv7"
+cGenerateDSYMFile /Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app.dSYM /Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app/HotPot
+cProcessProductPackaging "/Users/swetha/Library/MobileDevice/Provisioning Profiles/1808B73B-47AC-4B94-9E95-6C1C18F19020.mobileprovision" /Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app/embedded.mobileprovision
+cTouch /Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot.xcent
+cCodeSign /Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CFC0BFF0000000000000110
+t1291586559
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/GameKit.framework/GameKit
+c000000004CC129A40000000000289BB0
+t1287727524
+s2661296
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/GameKit.framework/Headers/GameKit.h
+c000000004CC129850000000000000348
+t1287727493
+s840
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/swetha/Desktop/HotPot/Classes/HotPotAppDelegate.h
+c000000004D041B5400000000000001D4
+t1292114772
+s468
+i<UIKit/UIKit.h>
+
+N/Users/swetha/Desktop/HotPot/Classes/HotPotAppDelegate.m
+c000000004D041B540000000000000A8B
+t1292114772
+s2699
+i"HotPotAppDelegate.h"
+i"HotPotViewController.h"
+
+N/Users/swetha/Desktop/HotPot/Classes/HotPotViewController.h
+c000000004D06ED50000000000000051C
+t1292299600
+s1308
+i<UIKit/UIKit.h>
+i<GameKit/GameKit.h>
+
+N/Users/swetha/Desktop/HotPot/Classes/HotPotViewController.m
+c000000004D07A6200000000000001CED
+t1292346912
+s7405
+i"HotPotViewController.h"
+
+N/Users/swetha/Desktop/HotPot/HotPotViewController.xib
+c000000004D06B59E000000000000681B
+t1292285342
+s26651
+
+N/Users/swetha/Desktop/HotPot/HotPot_Prefix.pch
+c000000004D041B5400000000000000B5
+t1292114772
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/swetha/Desktop/HotPot/MainWindow.xib
+c000000004D04251100000000000079F5
+t1292117265
+s31221
+
+N/Users/swetha/Desktop/HotPot/Potato.jpg
+c000000004D07A1C40000000000005778
+t1292345796
+s22392
+
+N/Users/swetha/Desktop/HotPot/background.jpg
+c000000004D07A20A000000000000168F
+t1292345866
+s5775
+
+N/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app
+t1292540052
+s442
+
+N/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app.dSYM
+t1292346926
+s102
+
+N/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app/HotPot
+t1292346925
+s82704
+
+N/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app/HotPotViewController.nib
+t1292287392
+s2040
+
+N/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app/Info.plist
+t1292196188
+s813
+
+N/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app/MainWindow.nib
+t1292193237
+s2152
+
+N/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app/PkgInfo
+t1292196188
+s8
+
+N/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app/Potato.jpg
+t1292346179
+s22392
+
+N/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app/ResourceRules.plist
+t1292193234
+s485
+
+N/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app/background.jpg
+t1292346179
+s5775
+
+N/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app/embedded.mobileprovision
+t1292193251
+s7148
+
+N/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot.xcent
+t1292196192
+s418
+
+N/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPot
+t1292346924
+s31796
+
+N/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPot.LinkFileList
+c000000004D06BD970000000000000155
+t1292287383
+s341
+
+N/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPotAppDelegate.o
+t1292299942
+s50920
+
+N/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPotViewController.o
+t1292346924
+s78520
+
+N/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/main.o
+t1292287403
+s6428
+
+N/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPot
+t1292346925
+s31696
+
+N/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPot.LinkFileList
+c000000004D06BD970000000000000155
+t1292287383
+s341
+
+N/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPotAppDelegate.o
+t1292299947
+s50840
+
+N/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPotViewController.o
+t1292346925
+s77816
+
+N/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/main.o
+t1292287406
+s6412
+
+N/Users/swetha/Desktop/HotPot/main.m
+c000000004D041B540000000000000163
+t1292114772
+s355
+i<UIKit/UIKit.h>
+
+N/Users/swetha/Documents/HotPot/Classes/HotPotAppDelegate.h
+c000000004D041B5400000000000001D4
+t1292114772
+s468
+i<UIKit/UIKit.h>
+
+N/Users/swetha/Documents/HotPot/Classes/HotPotAppDelegate.m
+c000000004D041B540000000000000A8B
+t1292114772
+s2699
+i"HotPotAppDelegate.h"
+i"HotPotViewController.h"
+
+N/Users/swetha/Documents/HotPot/Classes/HotPotViewController.h
+c000000004D06A8AD00000000000005C8
+t1292282029
+s1480
+i<UIKit/UIKit.h>
+i<GameKit/GameKit.h>
+
+N/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m
+c000000004D06ADDE00000000000024D6
+t1292283358
+s9430
+i"HotPotViewController.h"
+
+N/Users/swetha/Documents/HotPot/HotPotViewController.xib
+c000000004D0559EB00000000000070A8
+t1292196331
+s28840
+
+N/Users/swetha/Documents/HotPot/HotPot_Prefix.pch
+c000000004D041B5400000000000000B5
+t1292114772
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/swetha/Documents/HotPot/MainWindow.xib
+c000000004D04251100000000000079F5
+t1292117265
+s31221
+
+N/Users/swetha/Documents/HotPot/Potato.jpg
+c000000004D0557A30000000000002915
+t1292195747
+s10517
+
+N/Users/swetha/Documents/HotPot/Potato.png
+c000000004D04E00A0000000000002928
+t1292165130
+s10536
+
+N/Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app
+t1292283617
+s408
+
+N/Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app.dSYM
+t1292283603
+s102
+
+N/Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/HotPot
+t1292283603
+s83152
+
+N/Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/HotPotViewController.nib
+t1292265561
+s2274
+
+N/Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/Info.plist
+t1292196188
+s813
+
+N/Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/MainWindow.nib
+t1292193237
+s2152
+
+N/Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/PkgInfo
+t1292196188
+s8
+
+N/Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/Potato.jpg
+t1292196188
+s10517
+
+N/Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/Potato.png
+t2
+s0
+
+N/Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/ResourceRules.plist
+t1292193234
+s485
+
+N/Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/embedded.mobileprovision
+t1292193251
+s7148
+
+N/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot.xcent
+t1292196192
+s418
+
+N/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPot
+t1292283598
+s32244
+
+N/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPot.LinkFileList
+c000000004D054DD2000000000000015B
+t1292193234
+s347
+
+N/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPotAppDelegate.o
+t1292282097
+s51032
+
+N/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPotViewController.o
+t1292283598
+s77168
+
+N/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/main.o
+t1292193246
+s6432
+
+N/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPot
+t1292283603
+s32140
+
+N/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPot.LinkFileList
+c000000004D054DD2000000000000015B
+t1292193234
+s347
+
+N/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPotAppDelegate.o
+t1292282100
+s50952
+
+N/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPotViewController.o
+t1292283603
+s76336
+
+N/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/main.o
+t1292193249
+s6416
+
+N/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/StaticAnalyzer/normal/armv6/HotPotAppDelegate.plist
+t1292268703
+s276
+
+N/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/StaticAnalyzer/normal/armv6/HotPotViewController.plist
+t1292268704
+s14943
+
+N/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/StaticAnalyzer/normal/armv6/main.plist
+t1292268703
+s276
+
+N/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/StaticAnalyzer/normal/armv7/HotPotAppDelegate.plist
+t1292268705
+s276
+
+N/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/StaticAnalyzer/normal/armv7/HotPotViewController.plist
+t1292268705
+s14943
+
+N/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/StaticAnalyzer/normal/armv7/main.plist
+t1292268704
+s276
+
+N/Users/swetha/Documents/HotPot/main.m
+c000000004D041B540000000000000163
+t1292114772
+s355
+i<UIKit/UIKit.h>
+
+N/Users/swetha/Library/MobileDevice/Provisioning Profiles/1808B73B-47AC-4B94-9E95-6C1C18F19020.mobileprovision
+c000000004CFEC5E20000000000001BEC
+t1291765218
+s7148
+
+N/var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-aqqmtfileworvcgkegevjoxildiw/HotPot_Prefix.pch.gch
+t1292287400
+s9983704
+
+N/var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-bhyowganewqaptdhcnemuefsonao/HotPot_Prefix.pch.pth
+t1292268697
+s2752476
+
+N/var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-bvmwtxrbjofqbmexlkwujtomjclr/HotPot_Prefix.pch.pth
+t1292268695
+s2752316
+
+N/var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-dslqrgdvbpxytrdfmdssuhvdfybr/HotPot_Prefix.pch.gch
+t1292193245
+s10446552
+
+N/var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-dxtozzmyvbhxwldpgfknbafohzun/HotPot_Prefix.pch.gch
+t1292193242
+s9983704
+
+N/var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-hbuhmvqodqczzkgqyygbrgbdwyfg/HotPot_Prefix.pch.gch
+t1292287402
+s10446552
+
+NHotPot-Info.plist
+c000000004D0559320000000000000397
+t1292196146
+s919
+
+CAnalyze /Users/swetha/Documents/HotPot/Classes/HotPotAppDelegate.m
+s313961504.741031
+e313961505.171587
+r1
+xAnalyze
+x/Users/swetha/Documents/HotPot/Classes/HotPotAppDelegate.m
+lSLF07#2@66"Analyze /Users/swetha/Documents/HotPot/Classes/HotPotAppDelegate.m313961504#313961505#0(0"0(0#0#58"/Users/swetha/Documents/HotPot/Classes/HotPotAppDelegate.m8626027360#1679"    cd /Users/swetha/Documents/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Documents/HotPot/build/Debug-iphoneos -I/Users/swetha/Documents/HotPot/build/Debug-iphoneos/include -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources/armv7 -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources -include /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-bhyowganewqaptdhcnemuefsonao/HotPot_Prefix.pch --analyze /Users/swetha/Documents/HotPot/Classes/HotPotAppDelegate.m -o /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/StaticAnalyzer/normal/armv7/HotPotAppDelegate.plist0#
+
+CAnalyze /Users/swetha/Documents/HotPot/Classes/HotPotViewController.m
+s313961505.172020
+e313961505.679432
+r1
+xAnalyze
+x/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m
+o/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m:157:9: warning: Potential leak of an object allocated on line 157 and stored into 'str'
+o                 str = [[NSString alloc] initWithData:nil encoding:NSASCIIStringEncoding];
+o                       ^
+o/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m:164:9: warning: Potential leak of an object allocated on line 164 and stored into 'str'
+o                 str = [[NSString alloc] initWithData:nil encoding:NSASCIIStringEncoding];
+o                       ^
+o2 warnings generated.
+lSLF07#2@69"Analyze /Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961505#313961505#0(554"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m:157:9: warning: Potential leak of an object allocated on line 157 and stored into 'str'                 str = [[NSString alloc] initWithData:nil encoding:NSASCIIStringEncoding];                       ^/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m:164:9: warning: Potential leak of an object allocated on line 164 and stored into 'str'                 str = [[NSString alloc] initWithData:nil encoding:NSASCIIStringEncoding];                       ^2 warnings generated.2(0@71"Potential leak of an object allocated on line 157 and stored into 'str'313961505#18446744073709551615#0#7(17@0"313961505#18446744073709551615#0#0(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#0#0#0#0#0"0(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#0#0#0#0#1(3@6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#148#2#148#2#6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#154#2#154#2#17@0"313961505#18446744073709551615#0#0(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#0#0#0#0#0"0(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#0#0#0#0#1(3@6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#154#2#154#2#6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#156#3#156#3#17@0"313961505#18446744073709551615#0#0(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#0#0#0#0#0"0(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#0#0#0#0#1(3@6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#156#3#156#3#6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#157#3#157#3#17@0"313961505#18446744073709551615#0#0(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#0#0#0#0#0"0(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#0#0#0#0#1(3@6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#157#3#157#3#6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#157#9#157#74#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)313961505#18446744073709551615#0#0(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#157#9#0#0#0"1(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#157#9#157#74#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"313961505#18446744073709551615#0#0(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#0#0#0#0#0"0(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#0#0#0#0#1(3@6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#157#9#157#74#6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#159#3#159#3#21@136"Object allocated on line 157 and stored into 'str' is no longer referenced after this point and has a retain count of +1 (object leaked)313961505#18446744073709551615#0#0(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#159#3#0#0#0"1(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#159#3#159#3#136"Object allocated on line 157 and stored into 'str' is no longer referenced after this point and has a retain count of +1 (object leaked)6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#159#3#0#0#36"Memory (Core Foundation/Objective-C)0(4"Leak0@71"Potential leak of an object allocated on line 164 and stored into 'str'313961505#18446744073709551615#0#7(17@0"313961505#18446744073709551615#0#0(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#0#0#0#0#0"0(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#0#0#0#0#1(3@6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#148#2#148#2#6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#154#2#154#2#17@0"313961505#18446744073709551615#0#0(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#0#0#0#0#0"0(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#0#0#0#0#1(3@6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#154#2#154#2#6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#163#3#163#3#17@0"313961505#18446744073709551615#0#0(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#0#0#0#0#0"0(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#0#0#0#0#1(3@6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#163#3#163#3#6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#164#3#164#3#17@0"313961505#18446744073709551615#0#0(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#0#0#0#0#0"0(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#0#0#0#0#1(3@6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#164#3#164#3#6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#164#9#164#74#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)313961505#18446744073709551615#0#0(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#164#9#0#0#0"1(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#164#9#164#74#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"313961505#18446744073709551615#0#0(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#0#0#0#0#0"0(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#0#0#0#0#1(3@6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#164#9#164#74#6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#166#3#166#3#21@136"Object allocated on line 164 and stored into 'str' is no longer referenced after this point and has a retain count of +1 (object leaked)313961505#18446744073709551615#0#0(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#166#3#0#0#0"1(6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#166#3#166#3#136"Object allocated on line 164 and stored into 'str' is no longer referenced after this point and has a retain count of +1 (object leaked)6@61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313961375#166#3#0#0#36"Memory (Core Foundation/Objective-C)0(4"Leak0#0#61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m8626104512#1685"    cd /Users/swetha/Documents/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Documents/HotPot/build/Debug-iphoneos -I/Users/swetha/Documents/HotPot/build/Debug-iphoneos/include -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources/armv7 -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources -include /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-bhyowganewqaptdhcnemuefsonao/HotPot_Prefix.pch --analyze /Users/swetha/Documents/HotPot/Classes/HotPotViewController.m -o /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/StaticAnalyzer/normal/armv7/HotPotViewController.plist0#
+
+CAnalyze /Users/swetha/Documents/HotPot/main.m
+s313961504.401361
+e313961504.740892
+r1
+xAnalyze
+x/Users/swetha/Documents/HotPot/main.m
+lSLF07#2@45"Analyze /Users/swetha/Documents/HotPot/main.m313961504#313961504#0(0"0(0#0#37"/Users/swetha/Documents/HotPot/main.m8624167296#1645"    cd /Users/swetha/Documents/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Documents/HotPot/build/Debug-iphoneos -I/Users/swetha/Documents/HotPot/build/Debug-iphoneos/include -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources/armv7 -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources -include /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-bhyowganewqaptdhcnemuefsonao/HotPot_Prefix.pch --analyze /Users/swetha/Documents/HotPot/main.m -o /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/StaticAnalyzer/normal/armv7/main.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies314233043#314233043#0(0"0(0#1#0"8614299520#0"0#
+
+CCodeSign /Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app
+s314233043.692763
+e314233052.225953
+r1
+xCodeSign
+x/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app
+o/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app: replacing existing signature
+lSLF07#2@40"CodeSign build/Debug-iphoneos/HotPot.app314233043#314233052#0(91"/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app: replacing existing signature0(0#0#60"/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app8610275808#596"    cd /Users/swetha/Desktop/HotPot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Ou Mi (4GFSQV2S94)" --resource-rules=/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app/ResourceRules.plist --entitlements /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot.xcent /Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app0#
+
+CCodeSign /Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app
+s313976472.310601
+e313976485.928437
+r1
+xCodeSign
+x/Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app
+o/Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app: replacing existing signature
+lSLF07#2@40"CodeSign build/Debug-iphoneos/HotPot.app313976472#313976486#0(93"/Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app: replacing existing signature0(0#0#62"/Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app8617350336#604"    cd /Users/swetha/Documents/HotPot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Ou Mi (4GFSQV2S94)" --resource-rules=/Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/ResourceRules.plist --entitlements /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot.xcent /Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app0#
+
+CCompileC build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPotAppDelegate.o /Users/swetha/Desktop/HotPot/Classes/HotPotAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313992727.208573
+e313992743.050504
+r1
+xCompileC
+xbuild/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPotAppDelegate.o
+x/Users/swetha/Desktop/HotPot/Classes/HotPotAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/swetha/Desktop/HotPot/Classes/HotPotAppDelegate.m313992727#313992743#0(0"0(0#0#56"/Users/swetha/Desktop/HotPot/Classes/HotPotAppDelegate.m8601277120#1628"    cd /Users/swetha/Desktop/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Desktop/HotPot/build/Debug-iphoneos -I/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/include -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources/armv6 -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources -include /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-aqqmtfileworvcgkegevjoxildiw/HotPot_Prefix.pch -c /Users/swetha/Desktop/HotPot/Classes/HotPotAppDelegate.m -o /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPotAppDelegate.o0#
+
+CCompileC build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPotAppDelegate.o /Users/swetha/Documents/HotPot/Classes/HotPotAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313974896.688376
+e313974897.996483
+r1
+xCompileC
+xbuild/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPotAppDelegate.o
+x/Users/swetha/Documents/HotPot/Classes/HotPotAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/swetha/Documents/HotPot/Classes/HotPotAppDelegate.m313974896#313974898#0(0"0(0#0#58"/Users/swetha/Documents/HotPot/Classes/HotPotAppDelegate.m8617813056#1650"    cd /Users/swetha/Documents/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Documents/HotPot/build/Debug-iphoneos -I/Users/swetha/Documents/HotPot/build/Debug-iphoneos/include -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources/armv6 -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources -include /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-dxtozzmyvbhxwldpgfknbafohzun/HotPot_Prefix.pch -c /Users/swetha/Documents/HotPot/Classes/HotPotAppDelegate.m -o /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPotAppDelegate.o0#
+
+CCompileC build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPotViewController.o /Users/swetha/Desktop/HotPot/Classes/HotPotViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s314039713.180003
+e314039724.200155
+r1
+xCompileC
+xbuild/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPotViewController.o
+x/Users/swetha/Desktop/HotPot/Classes/HotPotViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/swetha/Desktop/HotPot/Classes/HotPotViewController.m314039713#314039724#0(0"0(0#0#59"/Users/swetha/Desktop/HotPot/Classes/HotPotViewController.m8631037824#1634"    cd /Users/swetha/Desktop/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Desktop/HotPot/build/Debug-iphoneos -I/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/include -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources/armv6 -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources -include /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-aqqmtfileworvcgkegevjoxildiw/HotPot_Prefix.pch -c /Users/swetha/Desktop/HotPot/Classes/HotPotViewController.m -o /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPotViewController.o0#
+
+CCompileC build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPotViewController.o /Users/swetha/Documents/HotPot/Classes/HotPotViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313976392.951152
+e313976398.206047
+r1
+xCompileC
+xbuild/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPotViewController.o
+x/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313976392#313976398#0(0"0(0#0#61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m8617188992#1656"    cd /Users/swetha/Documents/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Documents/HotPot/build/Debug-iphoneos -I/Users/swetha/Documents/HotPot/build/Debug-iphoneos/include -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources/armv6 -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources -include /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-dxtozzmyvbhxwldpgfknbafohzun/HotPot_Prefix.pch -c /Users/swetha/Documents/HotPot/Classes/HotPotViewController.m -o /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPotViewController.o0#
+
+CCompileC build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/main.o /Users/swetha/Desktop/HotPot/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313980202.736050
+e313980203.536510
+r1
+xCompileC
+xbuild/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/main.o
+x/Users/swetha/Desktop/HotPot/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Compile /Users/swetha/Desktop/HotPot/main.m313980202#313980203#0(0"0(0#0#35"/Users/swetha/Desktop/HotPot/main.m8627776032#1594"    cd /Users/swetha/Desktop/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Desktop/HotPot/build/Debug-iphoneos -I/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/include -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources/armv6 -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources -include /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-aqqmtfileworvcgkegevjoxildiw/HotPot_Prefix.pch -c /Users/swetha/Desktop/HotPot/main.m -o /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/main.o /Users/swetha/Documents/HotPot/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313886045.682188
+e313886046.430487
+r1
+xCompileC
+xbuild/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/main.o
+x/Users/swetha/Documents/HotPot/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/swetha/Documents/HotPot/main.m313886045#313886046#0(0"0(0#0#37"/Users/swetha/Documents/HotPot/main.m8607604800#1616"    cd /Users/swetha/Documents/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Documents/HotPot/build/Debug-iphoneos -I/Users/swetha/Documents/HotPot/build/Debug-iphoneos/include -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources/armv6 -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources -include /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-dxtozzmyvbhxwldpgfknbafohzun/HotPot_Prefix.pch -c /Users/swetha/Documents/HotPot/main.m -o /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPotAppDelegate.o /Users/swetha/Desktop/HotPot/Classes/HotPotAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313992746.507423
+e313992747.323640
+r1
+xCompileC
+xbuild/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPotAppDelegate.o
+x/Users/swetha/Desktop/HotPot/Classes/HotPotAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/swetha/Desktop/HotPot/Classes/HotPotAppDelegate.m313992746#313992747#0(0"0(0#0#56"/Users/swetha/Desktop/HotPot/Classes/HotPotAppDelegate.m8617563520#1628"    cd /Users/swetha/Desktop/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Desktop/HotPot/build/Debug-iphoneos -I/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/include -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources/armv7 -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources -include /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-hbuhmvqodqczzkgqyygbrgbdwyfg/HotPot_Prefix.pch -c /Users/swetha/Desktop/HotPot/Classes/HotPotAppDelegate.m -o /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPotAppDelegate.o0#
+
+CCompileC build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPotAppDelegate.o /Users/swetha/Documents/HotPot/Classes/HotPotAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313974900.296510
+e313974901.022482
+r1
+xCompileC
+xbuild/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPotAppDelegate.o
+x/Users/swetha/Documents/HotPot/Classes/HotPotAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/swetha/Documents/HotPot/Classes/HotPotAppDelegate.m313974900#313974901#0(0"0(0#0#58"/Users/swetha/Documents/HotPot/Classes/HotPotAppDelegate.m8621887616#1650"    cd /Users/swetha/Documents/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Documents/HotPot/build/Debug-iphoneos -I/Users/swetha/Documents/HotPot/build/Debug-iphoneos/include -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources/armv7 -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources -include /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-dslqrgdvbpxytrdfmdssuhvdfybr/HotPot_Prefix.pch -c /Users/swetha/Documents/HotPot/Classes/HotPotAppDelegate.m -o /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPotAppDelegate.o0#
+
+CCompileC build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPotViewController.o /Users/swetha/Desktop/HotPot/Classes/HotPotViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s314039724.438383
+e314039725.534373
+r1
+xCompileC
+xbuild/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPotViewController.o
+x/Users/swetha/Desktop/HotPot/Classes/HotPotViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/swetha/Desktop/HotPot/Classes/HotPotViewController.m314039724#314039725#0(0"0(0#0#59"/Users/swetha/Desktop/HotPot/Classes/HotPotViewController.m8631182688#1634"    cd /Users/swetha/Desktop/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Desktop/HotPot/build/Debug-iphoneos -I/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/include -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources/armv7 -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources -include /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-hbuhmvqodqczzkgqyygbrgbdwyfg/HotPot_Prefix.pch -c /Users/swetha/Desktop/HotPot/Classes/HotPotViewController.m -o /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPotViewController.o0#
+
+CCompileC build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPotViewController.o /Users/swetha/Documents/HotPot/Classes/HotPotViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313976398.798756
+e313976403.189610
+r1
+xCompileC
+xbuild/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPotViewController.o
+x/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313976398#313976403#0(0"0(0#0#61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m8617909984#1656"    cd /Users/swetha/Documents/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Documents/HotPot/build/Debug-iphoneos -I/Users/swetha/Documents/HotPot/build/Debug-iphoneos/include -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources/armv7 -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources -include /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-dslqrgdvbpxytrdfmdssuhvdfybr/HotPot_Prefix.pch -c /Users/swetha/Documents/HotPot/Classes/HotPotViewController.m -o /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPotViewController.o0#
+
+CCompileC build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/main.o /Users/swetha/Desktop/HotPot/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313980205.368096
+e313980206.145640
+r1
+xCompileC
+xbuild/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/main.o
+x/Users/swetha/Desktop/HotPot/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Compile /Users/swetha/Desktop/HotPot/main.m313980205#313980206#0(0"0(0#0#35"/Users/swetha/Desktop/HotPot/main.m8625652192#1594"    cd /Users/swetha/Desktop/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Desktop/HotPot/build/Debug-iphoneos -I/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/include -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources/armv7 -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources -include /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-hbuhmvqodqczzkgqyygbrgbdwyfg/HotPot_Prefix.pch -c /Users/swetha/Desktop/HotPot/main.m -o /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/main.o /Users/swetha/Documents/HotPot/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313886048.825532
+e313886049.388593
+r1
+xCompileC
+xbuild/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/main.o
+x/Users/swetha/Documents/HotPot/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/swetha/Documents/HotPot/main.m313886048#313886049#0(0"0(0#0#37"/Users/swetha/Documents/HotPot/main.m8602962464#1616"    cd /Users/swetha/Documents/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Documents/HotPot/build/Debug-iphoneos -I/Users/swetha/Documents/HotPot/build/Debug-iphoneos/include -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources/armv7 -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources -include /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-dslqrgdvbpxytrdfmdssuhvdfybr/HotPot_Prefix.pch -c /Users/swetha/Documents/HotPot/main.m -o /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/swetha/Desktop/HotPot/HotPotViewController.xib
+s313980183.912838
+e313980192.750884
+r1
+xCompileXIB
+x/Users/swetha/Desktop/HotPot/HotPotViewController.xib
+lSLF07#2@35"CompileXIB HotPotViewController.xib313980183#313980192#0(0"0(0#0#53"/Users/swetha/Desktop/HotPot/HotPotViewController.xib8624225536#531"    cd /Users/swetha/Desktop/HotPot    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app/HotPotViewController.nib /Users/swetha/Desktop/HotPot/HotPotViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/swetha/Desktop/HotPot/MainWindow.xib
+r0
+
+CCompileXIB /Users/swetha/Documents/HotPot/HotPotViewController.xib
+s313958339.207528
+e313958361.889135
+r1
+xCompileXIB
+x/Users/swetha/Documents/HotPot/HotPotViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@35"CompileXIB HotPotViewController.xib313958339#313958361#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#55"/Users/swetha/Documents/HotPot/HotPotViewController.xib32651574045048948#537"    cd /Users/swetha/Documents/HotPot    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/HotPotViewController.nib /Users/swetha/Documents/HotPot/HotPotViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/swetha/Documents/HotPot/MainWindow.xib
+s313886034.404617
+e313886037.656776
+r1
+xCompileXIB
+x/Users/swetha/Documents/HotPot/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib313886034#313886037#0(0"0(0#0#45"/Users/swetha/Documents/HotPot/MainWindow.xib32651574045048948#517"    cd /Users/swetha/Documents/HotPot    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/MainWindow.nib /Users/swetha/Documents/HotPot/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile /Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/Potato.png Potato.png
+s313886399.066093
+e313886399.247218
+r1
+xCopyPNGFile
+x/Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/Potato.png
+xPotato.png
+o
+oWhile reading /Users/swetha/Documents/HotPot/Potato.png pngcrush caught libpng error:
+o   Not a PNG file..
+o
+oCould not find file: /Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/Potato.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/HotPot.app/Potato.png Potato.png313886399#313886399#0(203"While reading /Users/swetha/Documents/HotPot/Potato.png pngcrush caught libpng error:   Not a PNG file..Could not find file: /Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/Potato.png0(0#0#41"/Users/swetha/Documents/HotPot/Potato.png8625014624#535"    cd /Users/swetha/Documents/HotPot    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/swetha/Documents/HotPot/Potato.png /Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/Potato.png0#
+
+CCpResource build/Debug-iphoneos/HotPot.app/Potato.jpg Potato.jpg
+s314038979.478674
+e314038979.559029
+r1
+xCpResource
+xbuild/Debug-iphoneos/HotPot.app/Potato.jpg
+xPotato.jpg
+lSLF07#2@15"Copy Potato.jpg314038979#314038979#0(0"0(0#0#39"/Users/swetha/Desktop/HotPot/Potato.jpg8625765856#423"    cd /Users/swetha/Desktop/HotPot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/swetha/Desktop/HotPot/Potato.jpg /Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app0#
+
+CCpResource build/Debug-iphoneos/HotPot.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s313886034.236275
+e313886034.404495
+r1
+xCpResource
+xbuild/Debug-iphoneos/HotPot.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist313886034#313886034#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8615354656#477"    cd /Users/swetha/Documents/HotPot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app0#
+
+CCpResource build/Debug-iphoneos/HotPot.app/background.jpg background.jpg
+s314038979.500974
+e314038979.566691
+r1
+xCpResource
+xbuild/Debug-iphoneos/HotPot.app/background.jpg
+xbackground.jpg
+lSLF07#2@19"Copy background.jpg314038979#314038979#0(0"0(0#0#43"/Users/swetha/Desktop/HotPot/background.jpg8624308800#427"    cd /Users/swetha/Desktop/HotPot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/swetha/Desktop/HotPot/background.jpg /Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app0#
+
+CCreateUniversalBinary /Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app/HotPot normal "armv6 armv7"
+s314039725.942643
+e314039725.963193
+r1
+xCreateUniversalBinary
+x/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app/HotPot
+xnormal
+xarmv6 armv7
+lSLF07#2@81"CreateUniversalBinary build/Debug-iphoneos/HotPot.app/HotPot normal "armv6 armv7"314039725#314039725#0(0"0(0#0#40"/Users/swetha/Desktop/HotPot/armv6 armv78629032320#470"    cd /Users/swetha/Desktop/HotPot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPot /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPot -output /Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app/HotPot0#
+
+CCreateUniversalBinary /Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/HotPot normal "armv6 armv7"
+s313976403.618481
+e313976403.684913
+r1
+xCreateUniversalBinary
+x/Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/HotPot
+xnormal
+xarmv6 armv7
+lSLF07#2@81"CreateUniversalBinary build/Debug-iphoneos/HotPot.app/HotPot normal "armv6 armv7"313976403#313976403#0(0"0(0#0#42"/Users/swetha/Documents/HotPot/armv6 armv78622022720#478"    cd /Users/swetha/Documents/HotPot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPot /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPot -output /Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/HotPot0#
+
+CGenerateDSYMFile /Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app.dSYM /Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app/HotPot
+s314039725.963345
+e314039726.077820
+r1
+xGenerateDSYMFile
+x/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app.dSYM
+x/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app/HotPot
+lSLF07#2@92"GenerateDSYMFile build/Debug-iphoneos/HotPot.app.dSYM build/Debug-iphoneos/HotPot.app/HotPot314039725#314039726#0(0"0(0#0#67"/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app/HotPot8631043552#329"    cd /Users/swetha/Desktop/HotPot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app/HotPot -o /Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app.dSYM0#
+
+CGenerateDSYMFile /Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app.dSYM /Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/HotPot
+s313976403.685053
+e313976403.901741
+r1
+xGenerateDSYMFile
+x/Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app.dSYM
+x/Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/HotPot
+lSLF07#2@92"GenerateDSYMFile build/Debug-iphoneos/HotPot.app.dSYM build/Debug-iphoneos/HotPot.app/HotPot313976403#313976403#0(0"0(0#0#69"/Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/HotPot8621571936#335"    cd /Users/swetha/Documents/HotPot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/HotPot -o /Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app.dSYM0#
+
+CLd /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPot normal armv6
+s314039724.200507
+e314039724.437859
+r1
+xLd
+x/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPot
+xnormal
+xarmv6
+lSLF07#2@108"Link /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPot314039724#314039724#0(0"0(0#0#0"8631484096#822"    cd /Users/swetha/Desktop/HotPot    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/swetha/Desktop/HotPot/build/Debug-iphoneos -F/Users/swetha/Desktop/HotPot/build/Debug-iphoneos -filelist /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPot.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework GameKit -o /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPot0#
+
+CLd /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPot normal armv7
+s314039725.535250
+e314039725.940144
+r1
+xLd
+x/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPot
+xnormal
+xarmv7
+lSLF07#2@108"Link /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPot314039725#314039725#0(0"0(0#0#0"8631379680#822"    cd /Users/swetha/Desktop/HotPot    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/swetha/Desktop/HotPot/build/Debug-iphoneos -F/Users/swetha/Desktop/HotPot/build/Debug-iphoneos -filelist /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPot.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework GameKit -o /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPot0#
+
+CLd /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPot normal armv6
+s313976398.206427
+e313976398.798302
+r1
+xLd
+x/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPot
+xnormal
+xarmv6
+lSLF07#2@110"Link /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPot313976398#313976398#0(0"0(0#0#0"8621479264#832"    cd /Users/swetha/Documents/HotPot    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/swetha/Documents/HotPot/build/Debug-iphoneos -F/Users/swetha/Documents/HotPot/build/Debug-iphoneos -filelist /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPot.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework GameKit -o /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv6/HotPot0#
+
+CLd /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPot normal armv7
+s313976403.189978
+e313976403.616076
+r1
+xLd
+x/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPot
+xnormal
+xarmv7
+lSLF07#2@110"Link /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPot313976403#313976403#0(0"0(0#0#0"8611274912#832"    cd /Users/swetha/Documents/HotPot    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/swetha/Documents/HotPot/build/Debug-iphoneos -F/Users/swetha/Documents/HotPot/build/Debug-iphoneos -filelist /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPot.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework GameKit -o /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/Objects-normal/armv7/HotPot0#
+
+CProcessInfoPlistFile /Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app/Info.plist HotPot-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/Info.plist HotPot-Info.plist
+s313888988.705211
+e313888988.713199
+r1
+xProcessInfoPlistFile
+x/Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/Info.plist
+xHotPot-Info.plist
+lSLF07#2@25"Process HotPot-Info.plist313888988#313888988#0(0"0(0#0#48"/Users/swetha/Documents/HotPot/HotPot-Info.plist8601941792#526"    cd /Users/swetha/Documents/HotPot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility HotPot-Info.plist -genpkginfo /Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/ResourceRules.plist -o /Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/Info.plist0#
+
+CProcessPCH /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-aqqmtfileworvcgkegevjoxildiw/HotPot_Prefix.pch.gch HotPot_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313980192.751532
+e313980200.258261
+r1
+xProcessPCH
+x/var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-aqqmtfileworvcgkegevjoxildiw/HotPot_Prefix.pch.gch
+xHotPot_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile HotPot_Prefix.pch313980192#313980200#0(0"0(0#0#46"/Users/swetha/Desktop/HotPot/HotPot_Prefix.pch8625695968#1503"    cd /Users/swetha/Desktop/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Desktop/HotPot/build/Debug-iphoneos -I/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/include -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources/armv6 -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources -c /Users/swetha/Desktop/HotPot/HotPot_Prefix.pch -o /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-aqqmtfileworvcgkegevjoxildiw/HotPot_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-bhyowganewqaptdhcnemuefsonao/HotPot_Prefix.pch.pth HotPot_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s313961495.825566
+e313961497.452274
+r1
+xProcessPCH
+x/var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-bhyowganewqaptdhcnemuefsonao/HotPot_Prefix.pch.pth
+xHotPot_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@28"Precompile HotPot_Prefix.pch313961495#313961497#0(0"0(0#0#48"/Users/swetha/Documents/HotPot/HotPot_Prefix.pch8626584960#1534"    cd /Users/swetha/Documents/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Documents/HotPot/build/Debug-iphoneos -I/Users/swetha/Documents/HotPot/build/Debug-iphoneos/include -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources/armv7 -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources -c /Users/swetha/Documents/HotPot/HotPot_Prefix.pch -o /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-bhyowganewqaptdhcnemuefsonao/HotPot_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-bvmwtxrbjofqbmexlkwujtomjclr/HotPot_Prefix.pch.pth HotPot_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s313961489.782643
+e313961495.825202
+r1
+xProcessPCH
+x/var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-bvmwtxrbjofqbmexlkwujtomjclr/HotPot_Prefix.pch.pth
+xHotPot_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@28"Precompile HotPot_Prefix.pch313961489#313961495#0(0"0(0#0#48"/Users/swetha/Documents/HotPot/HotPot_Prefix.pch8626581696#1534"    cd /Users/swetha/Documents/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Documents/HotPot/build/Debug-iphoneos -I/Users/swetha/Documents/HotPot/build/Debug-iphoneos/include -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources/armv6 -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources -c /Users/swetha/Documents/HotPot/HotPot_Prefix.pch -o /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-bvmwtxrbjofqbmexlkwujtomjclr/HotPot_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-dslqrgdvbpxytrdfmdssuhvdfybr/HotPot_Prefix.pch.gch HotPot_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313886042.334874
+e313886045.681848
+r1
+xProcessPCH
+x/var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-dslqrgdvbpxytrdfmdssuhvdfybr/HotPot_Prefix.pch.gch
+xHotPot_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile HotPot_Prefix.pch313886042#313886045#0(0"0(0#0#48"/Users/swetha/Documents/HotPot/HotPot_Prefix.pch8615996224#1523"    cd /Users/swetha/Documents/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Documents/HotPot/build/Debug-iphoneos -I/Users/swetha/Documents/HotPot/build/Debug-iphoneos/include -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources/armv7 -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources -c /Users/swetha/Documents/HotPot/HotPot_Prefix.pch -o /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-dslqrgdvbpxytrdfmdssuhvdfybr/HotPot_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-dxtozzmyvbhxwldpgfknbafohzun/HotPot_Prefix.pch.gch HotPot_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313886040.181691
+e313886042.334352
+r1
+xProcessPCH
+x/var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-dxtozzmyvbhxwldpgfknbafohzun/HotPot_Prefix.pch.gch
+xHotPot_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile HotPot_Prefix.pch313886040#313886042#0(0"0(0#0#48"/Users/swetha/Documents/HotPot/HotPot_Prefix.pch8614524160#1523"    cd /Users/swetha/Documents/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Documents/HotPot/build/Debug-iphoneos -I/Users/swetha/Documents/HotPot/build/Debug-iphoneos/include -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources/armv6 -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources -c /Users/swetha/Documents/HotPot/HotPot_Prefix.pch -o /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-dxtozzmyvbhxwldpgfknbafohzun/HotPot_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-hbuhmvqodqczzkgqyygbrgbdwyfg/HotPot_Prefix.pch.gch HotPot_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313980200.258764
+e313980202.735659
+r1
+xProcessPCH
+x/var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-hbuhmvqodqczzkgqyygbrgbdwyfg/HotPot_Prefix.pch.gch
+xHotPot_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile HotPot_Prefix.pch313980200#313980202#0(0"0(0#0#46"/Users/swetha/Desktop/HotPot/HotPot_Prefix.pch8624748448#1503"    cd /Users/swetha/Desktop/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Desktop/HotPot/build/Debug-iphoneos -I/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/include -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources/armv7 -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/DerivedSources -c /Users/swetha/Desktop/HotPot/HotPot_Prefix.pch -o /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-hbuhmvqodqczzkgqyygbrgbdwyfg/HotPot_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/swetha/Library/MobileDevice/Provisioning Profiles/1808B73B-47AC-4B94-9E95-6C1C18F19020.mobileprovision" /Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging "/Users/swetha/Library/MobileDevice/Provisioning Profiles/1808B73B-47AC-4B94-9E95-6C1C18F19020.mobileprovision" /Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/embedded.mobileprovision
+s313886051.557104
+e313886051.560393
+r1
+xProcessProductPackaging
+x/Users/swetha/Library/MobileDevice/Provisioning Profiles/1808B73B-47AC-4B94-9E95-6C1C18F19020.mobileprovision
+x/Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/embedded.mobileprovision
+lSLF07#2@192"ProcessProductPackaging "/Users/swetha/Library/MobileDevice/Provisioning Profiles/1808B73B-47AC-4B94-9E95-6C1C18F19020.mobileprovision" build/Debug-iphoneos/HotPot.app/embedded.mobileprovision313886051#313886051#0(0"0(0#0#87"/Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/embedded.mobileprovision8616038176#407"    cd /Users/swetha/Documents/HotPot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/swetha/Library/MobileDevice/Provisioning Profiles/1808B73B-47AC-4B94-9E95-6C1C18F19020.mobileprovision" -o /Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot.xcent
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot.xcent
+s313888992.854682
+e313888992.877811
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot.xcent
+lSLF07#2@172"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot.xcent313888992#313888992#0(0"0(0#0#90"/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot.xcent8621722272#413"    cd /Users/swetha/Documents/HotPot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphoneos/HotPot.build/HotPot.xcent0#
+
+CTouch /Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app
+s314039726.078083
+e314039726.096007
+r1
+xTouch
+x/Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app
+lSLF07#2@66"Touch /Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app314039726#314039726#0(0"0(0#0#0"8630907616#243"    cd /Users/swetha/Desktop/HotPot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/swetha/Desktop/HotPot/build/Debug-iphoneos/HotPot.app0#
+
+CTouch /Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app
+s313976403.902056
+e313976403.922475
+r1
+xTouch
+x/Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app
+lSLF07#2@68"Touch /Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app313976403#313976403#0(0"0(0#0#0"8618847776#247"    cd /Users/swetha/Documents/HotPot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/swetha/Documents/HotPot/build/Debug-iphoneos/HotPot.app0#
+

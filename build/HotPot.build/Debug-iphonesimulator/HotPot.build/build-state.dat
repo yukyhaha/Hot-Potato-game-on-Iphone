@@ -1,0 +1,505 @@
+THotPot
+v7
+r0
+t314036432.411257
+cCheck dependencies
+cProcessInfoPlistFile /Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app/Info.plist HotPot-Info.plist
+cCompileXIB /Users/swetha/Desktop/HotPot/MainWindow.xib
+cCompileXIB /Users/swetha/Desktop/HotPot/HotPotViewController.xib
+cCpResource build/Debug-iphonesimulator/HotPot.app/Potato.jpg Potato.jpg
+cProcessPCH /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-eqzxpumspbpmvcgqoqfizndernmq/HotPot_Prefix.pch.gch HotPot_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/main.o /Users/swetha/Desktop/HotPot/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/HotPotAppDelegate.o /Users/swetha/Desktop/HotPot/Classes/HotPotAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/HotPotViewController.o /Users/swetha/Desktop/HotPot/Classes/HotPotViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app/HotPot normal i386
+cGenerateDSYMFile /Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app.dSYM /Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app/HotPot
+cTouch /Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CFC0CAB0000000000000110
+t1291586731
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/GameKit.framework/GameKit
+c000000004CC65698000000000017E520
+t1288066712
+s1565984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/GameKit.framework/Headers/GameKit.h
+c000000004CC656840000000000000348
+t1288066692
+s840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/swetha/Desktop/HotPot/Classes/HotPotAppDelegate.h
+c000000004D041B5400000000000001D4
+t1292114772
+s468
+i<UIKit/UIKit.h>
+
+N/Users/swetha/Desktop/HotPot/Classes/HotPotAppDelegate.m
+c000000004D041B540000000000000A8B
+t1292114772
+s2699
+i"HotPotAppDelegate.h"
+i"HotPotViewController.h"
+
+N/Users/swetha/Desktop/HotPot/Classes/HotPotViewController.h
+c000000004D06ED50000000000000051C
+t1292299600
+s1308
+i<UIKit/UIKit.h>
+i<GameKit/GameKit.h>
+
+N/Users/swetha/Desktop/HotPot/Classes/HotPotViewController.m
+c000000004D0799440000000000001C13
+t1292343620
+s7187
+i"HotPotViewController.h"
+
+N/Users/swetha/Desktop/HotPot/HotPotViewController.xib
+c000000004D06B59E000000000000681B
+t1292285342
+s26651
+
+N/Users/swetha/Desktop/HotPot/HotPot_Prefix.pch
+c000000004D041B5400000000000000B5
+t1292114772
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/swetha/Desktop/HotPot/MainWindow.xib
+c000000004D04251100000000000079F5
+t1292117265
+s31221
+
+N/Users/swetha/Desktop/HotPot/Potato.jpg
+c000000004D0557A30000000000002915
+t1292195747
+s10517
+
+N/Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app
+t1292343632
+s306
+
+N/Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app.dSYM
+t1292343632
+s102
+
+N/Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app/HotPot
+t1292343632
+s31732
+
+N/Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app/HotPotViewController.nib
+t1292287525
+s2041
+
+N/Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app/Info.plist
+t1292196147
+s623
+
+N/Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app/MainWindow.nib
+t1292117538
+s2153
+
+N/Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app/PkgInfo
+t1292196147
+s8
+
+N/Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app/Potato.jpg
+t1292196147
+s10517
+
+N/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/HotPot.LinkFileList
+c000000004D06BE220000000000000167
+t1292287522
+s359
+
+N/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/HotPotAppDelegate.o
+t1292299602
+s51316
+
+N/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/HotPotViewController.o
+t1292343632
+s80556
+
+N/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/main.o
+t1292287536
+s6284
+
+N/Users/swetha/Desktop/HotPot/main.m
+c000000004D041B540000000000000163
+t1292114772
+s355
+i<UIKit/UIKit.h>
+
+N/Users/swetha/Documents/HotPot/Classes/HotPotAppDelegate.h
+c000000004D041B5400000000000001D4
+t1292114772
+s468
+i<UIKit/UIKit.h>
+
+N/Users/swetha/Documents/HotPot/Classes/HotPotAppDelegate.m
+c000000004D041B540000000000000A8B
+t1292114772
+s2699
+i"HotPotAppDelegate.h"
+i"HotPotViewController.h"
+
+N/Users/swetha/Documents/HotPot/Classes/HotPotViewController.h
+c000000004D06A8AD00000000000005C8
+t1292282029
+s1480
+i<UIKit/UIKit.h>
+i<GameKit/GameKit.h>
+
+N/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m
+c000000004D06ADDE00000000000024D6
+t1292283358
+s9430
+i"HotPotViewController.h"
+
+N/Users/swetha/Documents/HotPot/HotPotViewController.xib
+c000000004D0559EB00000000000070A8
+t1292196331
+s28840
+
+N/Users/swetha/Documents/HotPot/HotPot_Prefix.pch
+c000000004D041B5400000000000000B5
+t1292114772
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/swetha/Documents/HotPot/MainWindow.xib
+c000000004D04251100000000000079F5
+t1292117265
+s31221
+
+N/Users/swetha/Documents/HotPot/Potato.jpg
+c000000004D0557A30000000000002915
+t1292195747
+s10517
+
+N/Users/swetha/Documents/HotPot/Potato.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app
+t1292283370
+s306
+
+N/Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app.dSYM
+t1292283370
+s102
+
+N/Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app/HotPot
+t1292283370
+s32188
+
+N/Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app/HotPotViewController.nib
+t1292266958
+s2277
+
+N/Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app/Info.plist
+t1292196147
+s623
+
+N/Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app/MainWindow.nib
+t1292117538
+s2153
+
+N/Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app/PkgInfo
+t1292196147
+s8
+
+N/Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app/Potato.jpg
+t1292196147
+s10517
+
+N/Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app/Potato.png
+t1292168805
+s10536
+
+N/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/HotPot.LinkFileList
+c000000004D0421CD000000000000016D
+t1292116429
+s365
+
+N/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/HotPotAppDelegate.o
+t1292282032
+s51428
+
+N/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/HotPotViewController.o
+t1292283369
+s80648
+
+N/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/main.o
+t1292116448
+s6288
+
+N/Users/swetha/Documents/HotPot/main.m
+c000000004D041B540000000000000163
+t1292114772
+s355
+i<UIKit/UIKit.h>
+
+N/var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-bkreezxmzepzozfmjcepsyjboquh/HotPot_Prefix.pch.gch
+t1292116447
+s15453392
+
+N/var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-eqzxpumspbpmvcgqoqfizndernmq/HotPot_Prefix.pch.gch
+t1292287535
+s15453392
+
+NHotPot-Info.plist
+c000000004D0559320000000000000397
+t1292196146
+s919
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies314036428#314036429#0(0"0(0#1#0"8612953184#0"0#
+
+CCompileC build/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/HotPotAppDelegate.o /Users/swetha/Desktop/HotPot/Classes/HotPotAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313992400.998150
+e313992402.326691
+r1
+xCompileC
+xbuild/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/HotPotAppDelegate.o
+x/Users/swetha/Desktop/HotPot/Classes/HotPotAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/swetha/Desktop/HotPot/Classes/HotPotAppDelegate.m313992400#313992402#0(0"0(0#0#56"/Users/swetha/Desktop/HotPot/Classes/HotPotAppDelegate.m8615400608#1818"    cd /Users/swetha/Desktop/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator -I/Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/include -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/DerivedSources/i386 -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/DerivedSources -include /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-eqzxpumspbpmvcgqoqfizndernmq/HotPot_Prefix.pch -c /Users/swetha/Desktop/HotPot/Classes/HotPotAppDelegate.m -o /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/HotPotAppDelegate.o0#
+
+CCompileC build/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/HotPotAppDelegate.o /Users/swetha/Documents/HotPot/Classes/HotPotAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313974831.372268
+e313974832.207250
+r1
+xCompileC
+xbuild/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/HotPotAppDelegate.o
+x/Users/swetha/Documents/HotPot/Classes/HotPotAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/swetha/Documents/HotPot/Classes/HotPotAppDelegate.m313974831#313974832#0(0"0(0#0#58"/Users/swetha/Documents/HotPot/Classes/HotPotAppDelegate.m8621681888#1840"    cd /Users/swetha/Documents/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Documents/HotPot/build/Debug-iphonesimulator -I/Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/include -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/DerivedSources/i386 -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/DerivedSources -include /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-bkreezxmzepzozfmjcepsyjboquh/HotPot_Prefix.pch -c /Users/swetha/Documents/HotPot/Classes/HotPotAppDelegate.m -o /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/HotPotAppDelegate.o0#
+
+CCompileC build/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/HotPotViewController.o /Users/swetha/Desktop/HotPot/Classes/HotPotViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314036429.006486
+e314036432.055996
+r1
+xCompileC
+xbuild/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/HotPotViewController.o
+x/Users/swetha/Desktop/HotPot/Classes/HotPotViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/swetha/Desktop/HotPot/Classes/HotPotViewController.m314036429#314036432#0(0"0(0#0#59"/Users/swetha/Desktop/HotPot/Classes/HotPotViewController.m8612692608#1824"    cd /Users/swetha/Desktop/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator -I/Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/include -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/DerivedSources/i386 -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/DerivedSources -include /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-eqzxpumspbpmvcgqoqfizndernmq/HotPot_Prefix.pch -c /Users/swetha/Desktop/HotPot/Classes/HotPotViewController.m -o /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/HotPotViewController.o0#
+
+CCompileC build/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/HotPotViewController.o /Users/swetha/Documents/HotPot/Classes/HotPotViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313976159.043584
+e313976169.923574
+r1
+xCompileC
+xbuild/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/HotPotViewController.o
+x/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/swetha/Documents/HotPot/Classes/HotPotViewController.m313976159#313976169#0(0"0(0#0#61"/Users/swetha/Documents/HotPot/Classes/HotPotViewController.m8617771904#1846"    cd /Users/swetha/Documents/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Documents/HotPot/build/Debug-iphonesimulator -I/Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/include -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/DerivedSources/i386 -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/DerivedSources -include /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-bkreezxmzepzozfmjcepsyjboquh/HotPot_Prefix.pch -c /Users/swetha/Documents/HotPot/Classes/HotPotViewController.m -o /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/HotPotViewController.o0#
+
+CCompileC build/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/main.o /Users/swetha/Desktop/HotPot/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313980335.400462
+e313980336.116725
+r1
+xCompileC
+xbuild/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/main.o
+x/Users/swetha/Desktop/HotPot/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Compile /Users/swetha/Desktop/HotPot/main.m313980335#313980336#0(0"0(0#0#35"/Users/swetha/Desktop/HotPot/main.m8624813472#1784"    cd /Users/swetha/Desktop/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator -I/Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/include -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/DerivedSources/i386 -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/DerivedSources -include /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-eqzxpumspbpmvcgqoqfizndernmq/HotPot_Prefix.pch -c /Users/swetha/Desktop/HotPot/main.m -o /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/main.o0#
+
+CCompileC build/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/main.o /Users/swetha/Documents/HotPot/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313809247.982821
+e313809248.555134
+r1
+xCompileC
+xbuild/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/main.o
+x/Users/swetha/Documents/HotPot/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/swetha/Documents/HotPot/main.m313809247#313809248#0(0"0(0#0#37"/Users/swetha/Documents/HotPot/main.m8615861312#1806"    cd /Users/swetha/Documents/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Documents/HotPot/build/Debug-iphonesimulator -I/Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/include -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/DerivedSources/i386 -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/DerivedSources -include /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-bkreezxmzepzozfmjcepsyjboquh/HotPot_Prefix.pch -c /Users/swetha/Documents/HotPot/main.m -o /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/swetha/Desktop/HotPot/HotPotViewController.xib
+s313980322.707580
+e313980325.573522
+r1
+xCompileXIB
+x/Users/swetha/Desktop/HotPot/HotPotViewController.xib
+lSLF07#2@35"CompileXIB HotPotViewController.xib313980322#313980325#0(0"0(0#0#53"/Users/swetha/Desktop/HotPot/HotPotViewController.xib20266400194232432#559"    cd /Users/swetha/Desktop/HotPot    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app/HotPotViewController.nib /Users/swetha/Desktop/HotPot/HotPotViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/swetha/Desktop/HotPot/MainWindow.xib
+r0
+
+CCompileXIB /Users/swetha/Documents/HotPot/HotPotViewController.xib
+s313959754.056251
+e313959760.999081
+r1
+xCompileXIB
+x/Users/swetha/Documents/HotPot/HotPotViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@35"CompileXIB HotPotViewController.xib313959754#313959761#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#55"/Users/swetha/Documents/HotPot/HotPotViewController.xib32651574045048948#565"    cd /Users/swetha/Documents/HotPot    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app/HotPotViewController.nib /Users/swetha/Documents/HotPot/HotPotViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/swetha/Documents/HotPot/MainWindow.xib
+s313810336.885637
+e313810338.952145
+r1
+xCompileXIB
+x/Users/swetha/Documents/HotPot/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib313810336#313810338#0(0"0(0#0#45"/Users/swetha/Documents/HotPot/MainWindow.xib8619261824#545"    cd /Users/swetha/Documents/HotPot    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app/MainWindow.nib /Users/swetha/Documents/HotPot/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/HotPot.app/Potato.jpg Potato.jpg
+s313888947.076163
+e313888947.133678
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HotPot.app/Potato.jpg
+xPotato.jpg
+lSLF07#2@15"Copy Potato.jpg313888947#313888947#0(0"0(0#0#41"/Users/swetha/Documents/HotPot/Potato.jpg8623483264#443"    cd /Users/swetha/Documents/HotPot    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/swetha/Documents/HotPot/Potato.jpg /Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app0#
+
+CCpResource build/Debug-iphonesimulator/HotPot.app/Potato.png Potato.png
+s313861605.298879
+e313861605.365997
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HotPot.app/Potato.png
+xPotato.png
+lSLF07#2@15"Copy Potato.png313861605#313861605#0(0"0(0#0#41"/Users/swetha/Documents/HotPot/Potato.png8612657408#443"    cd /Users/swetha/Documents/HotPot    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/swetha/Documents/HotPot/Potato.png /Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app0#
+
+CGenerateDSYMFile /Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app.dSYM /Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app/HotPot
+s314036432.242161
+e314036432.354056
+r1
+xGenerateDSYMFile
+x/Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app.dSYM
+x/Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app/HotPot
+lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/HotPot.app.dSYM build/Debug-iphonesimulator/HotPot.app/HotPot314036432#314036432#0(0"0(0#0#74"/Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app/HotPot8612707776#350"    cd /Users/swetha/Desktop/HotPot    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app/HotPot -o /Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app.dSYM0#
+
+CGenerateDSYMFile /Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app.dSYM /Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app/HotPot
+s313976170.641978
+e313976170.920282
+r1
+xGenerateDSYMFile
+x/Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app.dSYM
+x/Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app/HotPot
+lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/HotPot.app.dSYM build/Debug-iphonesimulator/HotPot.app/HotPot313976170#313976170#0(0"0(0#0#76"/Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app/HotPot8618583776#356"    cd /Users/swetha/Documents/HotPot    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app/HotPot -o /Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app.dSYM0#
+
+CLd /Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app/HotPot normal i386
+s314036432.056324
+e314036432.242016
+r1
+xLd
+x/Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app/HotPot
+xnormal
+xi386
+lSLF07#2@79"Link /Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app/HotPot314036432#314036432#0(0"0(0#0#0"8613424448#864"    cd /Users/swetha/Desktop/HotPot    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator -F/Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator -filelist /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/HotPot.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework GameKit -o /Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app/HotPot0#
+
+CLd /Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app/HotPot normal i386
+s313976169.924115
+e313976170.641831
+r1
+xLd
+x/Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app/HotPot
+xnormal
+xi386
+lSLF07#2@81"Link /Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app/HotPot313976169#313976170#0(0"0(0#0#0"8609776064#874"    cd /Users/swetha/Documents/HotPot    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/swetha/Documents/HotPot/build/Debug-iphonesimulator -F/Users/swetha/Documents/HotPot/build/Debug-iphonesimulator -filelist /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/Objects-normal/i386/HotPot.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework GameKit -o /Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app/HotPot0#
+
+CProcessInfoPlistFile /Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app/Info.plist HotPot-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app/Info.plist HotPot-Info.plist
+s313888946.854688
+e313888947.075753
+r1
+xProcessInfoPlistFile
+x/Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app/Info.plist
+xHotPot-Info.plist
+lSLF07#2@25"Process HotPot-Info.plist313888946#313888947#0(0"0(0#0#48"/Users/swetha/Documents/HotPot/HotPot-Info.plist8622298208#452"    cd /Users/swetha/Documents/HotPot    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility HotPot-Info.plist -genpkginfo /Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app/Info.plist0#
+
+CProcessPCH /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-bkreezxmzepzozfmjcepsyjboquh/HotPot_Prefix.pch.gch HotPot_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s313809235.992352
+e313809247.982452
+r1
+xProcessPCH
+x/var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-bkreezxmzepzozfmjcepsyjboquh/HotPot_Prefix.pch.gch
+xHotPot_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile HotPot_Prefix.pch313809235#313809247#0(0"0(0#0#48"/Users/swetha/Documents/HotPot/HotPot_Prefix.pch8618469760#1707"    cd /Users/swetha/Documents/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Documents/HotPot/build/Debug-iphonesimulator -I/Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/include -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/DerivedSources/i386 -I/Users/swetha/Documents/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/DerivedSources -c /Users/swetha/Documents/HotPot/HotPot_Prefix.pch -o /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-bkreezxmzepzozfmjcepsyjboquh/HotPot_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-eqzxpumspbpmvcgqoqfizndernmq/HotPot_Prefix.pch.gch HotPot_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s313980325.574028
+e313980335.400115
+r1
+xProcessPCH
+x/var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-eqzxpumspbpmvcgqoqfizndernmq/HotPot_Prefix.pch.gch
+xHotPot_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile HotPot_Prefix.pch313980325#313980335#0(0"0(0#0#46"/Users/swetha/Desktop/HotPot/HotPot_Prefix.pch8621563392#1687"    cd /Users/swetha/Desktop/HotPot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-generated-files.hmap -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-own-target-headers.hmap -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-all-target-headers.hmap -iquote /Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/HotPot-project-headers.hmap -F/Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator -I/Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/include -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/DerivedSources/i386 -I/Users/swetha/Desktop/HotPot/build/HotPot.build/Debug-iphonesimulator/HotPot.build/DerivedSources -c /Users/swetha/Desktop/HotPot/HotPot_Prefix.pch -o /var/folders/ZH/ZHwZDb2BG3CkP56Rid0osk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HotPot_Prefix-eqzxpumspbpmvcgqoqfizndernmq/HotPot_Prefix.pch.gch0#
+
+CTouch /Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app
+s314036432.354645
+e314036432.411186
+r1
+xTouch
+x/Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app
+lSLF07#2@73"Touch /Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app314036432#314036432#0(0"0(0#0#0"8612385952#257"    cd /Users/swetha/Desktop/HotPot    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/swetha/Desktop/HotPot/build/Debug-iphonesimulator/HotPot.app0#
+
+CTouch /Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app
+s313976170.920497
+e313976170.970902
+r1
+xTouch
+x/Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app
+lSLF07#2@75"Touch /Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app313976170#313976170#0(0"0(0#0#0"8611550048#261"    cd /Users/swetha/Documents/HotPot    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/swetha/Documents/HotPot/build/Debug-iphonesimulator/HotPot.app0#
+

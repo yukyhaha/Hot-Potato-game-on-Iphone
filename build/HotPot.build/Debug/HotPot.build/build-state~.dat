@@ -1,0 +1,80 @@
+THotPot
+v7
+r1
+cCheck dependencies
+
+N/Users/yunzhang/Desktop/HotPot/HotPotViewController.xib
+c000000004D06B59E000000000000681B
+t1292285342
+s26651
+
+N/Users/yunzhang/Desktop/HotPot/MainWindow.xib
+c000000004D04251100000000000079F5
+t1292117265
+s31221
+
+N/Users/yunzhang/Desktop/HotPot/Potato.jpg
+c000000004D07A1C40000000000005778
+t1292345796
+s22392
+
+N/Users/yunzhang/Desktop/HotPot/background.jpg
+c000000004D07A20A000000000000168F
+t1292345866
+s5775
+
+N/Users/yunzhang/Desktop/HotPot/build/Debug/HotPot.app
+t2
+s0
+
+N/Users/yunzhang/Desktop/HotPot/build/Debug/HotPot.app/Contents/Info.plist
+t2
+s0
+
+N/Users/yunzhang/Desktop/HotPot/build/Debug/HotPot.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/yunzhang/Desktop/HotPot/build/Debug/HotPot.app/Contents/Resources/HotPotViewController.nib
+t2
+s0
+
+N/Users/yunzhang/Desktop/HotPot/build/Debug/HotPot.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/yunzhang/Desktop/HotPot/build/Debug/HotPot.app/Contents/Resources/Potato.jpg
+t2
+s0
+
+N/Users/yunzhang/Desktop/HotPot/build/Debug/HotPot.app/Contents/Resources/background.jpg
+t2
+s0
+
+NHotPot-Info.plist
+c000000004D0559320000000000000397
+t1292196146
+s919
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies363886236#363886236#0(63"[BEROR]error: There is no SDK with the name or path 'iphoneos'1(4@55"error: There is no SDK with the name or path 'iphoneos'363886236#18446744073709551615#0#0(1@0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileXIB /Users/yunzhang/Desktop/HotPot/HotPotViewController.xib
+r0
+
+CCompileXIB /Users/yunzhang/Desktop/HotPot/MainWindow.xib
+r0
+
+CCpResource build/Debug/HotPot.app/Contents/Resources/Potato.jpg Potato.jpg
+r0
+
+CCpResource build/Debug/HotPot.app/Contents/Resources/background.jpg background.jpg
+r0
+
+CProcessInfoPlistFile /Users/yunzhang/Desktop/HotPot/build/Debug/HotPot.app/Contents/Info.plist HotPot-Info.plist
+r0
+
+CTouch /Users/yunzhang/Desktop/HotPot/build/Debug/HotPot.app
+r0
+
